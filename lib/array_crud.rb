@@ -8,7 +8,7 @@ end
 
 def add_element_to_start_of_array
   ["kyle", "nick", "jeff", "andy"]
-  add_element_to_start_of_array << "john"
+  add_element_to_start_of_array.push "john"
 end
 
 def add_element_to_start_of_array(array, element)
