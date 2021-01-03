@@ -6,10 +6,9 @@ def create_an_array
  ["kyle", "nick", "jeff", "andy"]
 end
 
-def add_element_to_start_of_array(array, element)
-  array = "pickle"
-  element = "jar"
-  array 
+def add_element_to_start_of_array
+  ["kyle", "nick", "jeff", "andy"]
+  add_element_to_start_of_array << "john"
 end
 
 def add_element_to_start_of_array(array, element)
