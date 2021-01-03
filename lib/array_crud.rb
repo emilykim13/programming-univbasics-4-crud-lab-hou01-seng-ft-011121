@@ -8,8 +8,6 @@ end
 
 def add_element_to_end_of_array
   ["kyle", "nick", "jeff", "andy"]
-  add_element_to_end_of_array.push "john"
-  puts add_element_to_end_of_array
 end
 
 def add_element_to_start_of_array(array, element)
