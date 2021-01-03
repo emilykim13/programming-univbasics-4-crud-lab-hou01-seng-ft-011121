@@ -6,10 +6,10 @@ def create_an_array
  ["kyle", "nick", "jeff", "andy"]
 end
 
-def add_element_to_end_of_array(array, element)
-  array = ["wow", "I", "am", "really", "learning"]
-  element = "arrays!"
-  add_element_to_end_of_array.push element
+def add_element_to_end_of_array
+  ["kyle", "nick", "jeff", "andy"]
+  
+  
 end
 
 def add_element_to_start_of_array(array, element)
