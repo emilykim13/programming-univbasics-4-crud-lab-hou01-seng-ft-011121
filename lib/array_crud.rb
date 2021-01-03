@@ -6,7 +6,7 @@ def create_an_array
  ["kyle", "nick", "jeff", "andy"]
 end
 
-def add_element_to_start_of_array
+def add_element_to_endof_array
   ["kyle", "nick", "jeff", "andy"]
   add_element_to_start_of_array.push "john"
   puts add_element_to_start_of_array
